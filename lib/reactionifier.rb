@@ -1,5 +1,4 @@
 require 'net/http'
-require 'rubygems'
 require 'nokogiri'
 
 # Scrapes GIFs from reactiongifs.com
@@ -13,7 +12,7 @@ module Reactionifier
   class Reactionifier
 
     def reaction_gif(mood)
-      reaction_gifs(mood).shuffle.first
+      reaction_gifs(mood).sample
     end
 
     def reaction_gifs(mood)
