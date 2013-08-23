@@ -7,8 +7,6 @@ module Reactionifier
 
   VERSION = '0.0.1'
 
-  class Error < Exception; end
-
   class Reactionifier
 
     def reaction_gif(mood)
