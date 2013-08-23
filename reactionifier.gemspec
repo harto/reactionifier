@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = "reactionifier"
   s.license     = "MIT"
-  s.version     = "0.0.1"
+  s.version     = "0.0.2"
   s.authors     = ["Stuart Campbell"]
   s.email       = ["stuart@harto.org"]
   s.homepage    = "http://github.com/harto/reactionifier"
